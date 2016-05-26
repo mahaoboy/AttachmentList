@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2016-05-26T19:43:15+0800
+Atlassian-Plugin-Key: com.winagile.attachement.AttachmentSearch
+Bnd-LastModified: 1464262997723
+Build-Jdk: 1.8.0_73
+Built-By: hao.ma
+Bundle-Description: This is the com.winagile.attachement:AttachmentSearc
+ h plugin for Atlassian JIRA.
+Bundle-DocURL: http://www.example.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: AttachmentSearch
+Bundle-SymbolicName: com.winagile.attachement.AttachmentSearch
+Bundle-Vendor: Example Company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.winagile.attachement.api;version="1.0.0"
+Import-Package: org.springframework.osgi.service.exporter.support;resolu
+ tion:=optional,org.springframework.osgi.service.importer.support;resolu
+ tion:=optional,org.eclipse.gemini.blueprint.service.exporter;resolution
+ :=optional,org.eclipse.gemini.blueprint.service.exporter.support;resolu
+ tion:=optional,org.eclipse.gemini.blueprint.service.importer.support;re
+ solution:=optional,com.atlassian.crowd.embedded.api,com.atlassian.event
+ .api,com.atlassian.jira.component,com.atlassian.jira.event.issue,com.at
+ lassian.jira.event.type,com.atlassian.jira.issue,com.atlassian.jira.iss
+ ue.context,com.atlassian.jira.issue.customfields,com.atlassian.jira.iss
+ ue.fields,com.atlassian.jira.issue.fields.screen,com.atlassian.jira.iss
+ ue.index,com.atlassian.jira.project,com.atlassian.jira.security,com.atl
+ assian.jira.user,com.atlassian.jira.util,com.atlassian.plugin.osgi.fact
+ ory,com.atlassian.sal.api,com.atlassian.sal.api.lifecycle,com.google.co
+ mmon.base,com.google.common.collect,javax.inject,org.apache.commons.lan
+ g,org.apache.commons.logging,org.ofbiz.core.entity,org.osgi.framework,o
+ rg.osgi.util.tracker,org.springframework.beans,org.springframework.bean
+ s.factory,org.springframework.beans.factory.annotation,org.springframew
+ ork.beans.factory.config,org.springframework.beans.factory.parsing,org.
+ springframework.beans.factory.support,org.springframework.beans.factory
+ .xml,org.springframework.context.annotation,org.springframework.stereot
+ ype,org.springframework.util,org.w3c.dom
+JAVA_1_7_HOME: /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Content
+ s/Home
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Spring-Context: *
+Tool: Bnd-2.4.1.201501161923
