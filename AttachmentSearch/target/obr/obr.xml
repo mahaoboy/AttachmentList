@@ -1,8 +1,8 @@
-<repository lastmodified='20160526074318.301'>
+<repository lastmodified='20160608045028.626'>
   <resource id='com.winagile.attachement.AttachmentSearch/1.0.0.SNAPSHOT' symbolicname='com.winagile.attachement.AttachmentSearch' presentationname='AttachmentSearch' uri='AttachmentSearch-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
     <description>This is the com.winagile.attachement:AttachmentSearch plugin for Atlassian JIRA.</description>
-    <size>262515</size>
-    <documentation>http://www.example.com/</documentation>
+    <size>267336</size>
+    <documentation>http://www.winagile.com/</documentation>
     <capability name='bundle'>
       <p n='symbolicname' v='com.winagile.attachement.AttachmentSearch'/>
       <p n='presentationname' v='AttachmentSearch'/>
@@ -20,22 +20,31 @@
     <require name='package' filter='(&amp;(package=org.eclipse.gemini.blueprint.service.importer.support))' extend='false' multiple='false' optional='true'>Import package org.eclipse.gemini.blueprint.service.importer.support;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=com.atlassian.crowd.embedded.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.crowd.embedded.api</require>
     <require name='package' filter='(&amp;(package=com.atlassian.event.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.event.api</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.bc))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.bc</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.bc.issue.fields))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.bc.issue.fields</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.component))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.component</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.config))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.config</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.event.issue))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.event.issue</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.event.type))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.event.type</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.issue))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.attachment))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.attachment</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.context))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.context</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.customfields))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.customfields</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.customfields.impl))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.customfields.impl</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.customfields.manager))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.customfields.manager</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.customfields.persistence))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.customfields.persistence</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.fields))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.fields</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.fields.config.manager))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.fields.config.manager</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.fields.layout.column))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.fields.layout.column</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.fields.layout.field))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.fields.layout.field</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.fields.screen))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.fields.screen</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.issue.index))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.issue.index</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.project))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.project</require>
-    <require name='package' filter='(&amp;(package=com.atlassian.jira.security))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.security</require>
     <require name='package' filter='(&amp;(package=com.atlassian.jira.user))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.user</require>
-    <require name='package' filter='(&amp;(package=com.atlassian.jira.util))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.util</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.user.util))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.user.util</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.jira.web.action.admin.translation))' extend='false' multiple='false' optional='false'>Import package com.atlassian.jira.web.action.admin.translation</require>
     <require name='package' filter='(&amp;(package=com.atlassian.plugin.osgi.factory))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.osgi.factory</require>
     <require name='package' filter='(&amp;(package=com.atlassian.sal.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api</require>
-    <require name='package' filter='(&amp;(package=com.atlassian.sal.api.lifecycle))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api.lifecycle</require>
     <require name='package' filter='(&amp;(package=com.google.common.base))' extend='false' multiple='false' optional='false'>Import package com.google.common.base</require>
     <require name='package' filter='(&amp;(package=com.google.common.collect))' extend='false' multiple='false' optional='false'>Import package com.google.common.collect</require>
     <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
@@ -44,6 +53,7 @@
     <require name='package' filter='(&amp;(package=org.ofbiz.core.entity))' extend='false' multiple='false' optional='false'>Import package org.ofbiz.core.entity</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework</require>
     <require name='package' filter='(&amp;(package=org.osgi.util.tracker))' extend='false' multiple='false' optional='false'>Import package org.osgi.util.tracker</require>
+    <require name='package' filter='(&amp;(package=org.slf4j.helpers))' extend='false' multiple='false' optional='false'>Import package org.slf4j.helpers</require>
     <require name='package' filter='(&amp;(package=org.springframework.beans))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans</require>
     <require name='package' filter='(&amp;(package=org.springframework.beans.factory))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory</require>
     <require name='package' filter='(&amp;(package=org.springframework.beans.factory.annotation))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory.annotation</require>

@@ -23,4 +23,17 @@
 
 		<context>AttachmentSearch</context>
 	</web-resource>
+
+	<customfield-type key="admintextfield" name="Admin Editable Text Field"
+		class="com.winagile.attachement.impl.JiraCustomField">
+		<description>A text field only editable by those with admin
+			permissions
+		</description>
+		<resource type="velocity" name="view" location="templates/view-basictext.vm" />
+		<resource type="velocity" name="edit"
+			location="templates/edit-jiraadminonlytext.vm" />
+		<resource type="velocity" name="xml"
+			location="templates/plugins/fields/xml/xml-basictext.vm" />
+	</customfield-type>
+
 </atlassian-plugin>

@@ -23,7 +23,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="var" path="M2_REPO/com/atlassian/jira/jira-api/6.2.3/jira-api-6.2.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/atlassian/jira/jira-api/6.2.3/jira-api-6.2.3.jar" sourcepath="/jira_api_source"/>
 	<classpathentry kind="var" path="M2_REPO/com/atlassian/annotations/atlassian-annotations/0.9/atlassian-annotations-0.9.jar" sourcepath="M2_REPO/com/atlassian/annotations/atlassian-annotations/0.9/atlassian-annotations-0.9-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/Applications/Atlassian/atlassian-plugin-sdk-6.2.4/repository/com/atlassian/annotations/atlassian-annotations/0.9/atlassian-annotations-0.9-javadoc.jar!/"/>

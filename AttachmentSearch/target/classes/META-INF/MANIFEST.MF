@@ -1,16 +1,16 @@
 Manifest-Version: 1.0
-Atlassian-Build-Date: 2016-05-26T19:43:15+0800
+Atlassian-Build-Date: 2016-06-08T16:50:26+0800
 Atlassian-Plugin-Key: com.winagile.attachement.AttachmentSearch
-Bnd-LastModified: 1464262997723
+Bnd-LastModified: 1465375828153
 Build-Jdk: 1.8.0_73
 Built-By: hao.ma
 Bundle-Description: This is the com.winagile.attachement:AttachmentSearc
  h plugin for Atlassian JIRA.
-Bundle-DocURL: http://www.example.com/
+Bundle-DocURL: http://www.winagile.com/
 Bundle-ManifestVersion: 2
 Bundle-Name: AttachmentSearch
 Bundle-SymbolicName: com.winagile.attachement.AttachmentSearch
-Bundle-Vendor: Example Company
+Bundle-Vendor: Winagile
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Export-Package: com.winagile.attachement.api;version="1.0.0"
@@ -20,21 +20,27 @@ Import-Package: org.springframework.osgi.service.exporter.support;resolu
  :=optional,org.eclipse.gemini.blueprint.service.exporter.support;resolu
  tion:=optional,org.eclipse.gemini.blueprint.service.importer.support;re
  solution:=optional,com.atlassian.crowd.embedded.api,com.atlassian.event
- .api,com.atlassian.jira.component,com.atlassian.jira.event.issue,com.at
- lassian.jira.event.type,com.atlassian.jira.issue,com.atlassian.jira.iss
- ue.context,com.atlassian.jira.issue.customfields,com.atlassian.jira.iss
- ue.fields,com.atlassian.jira.issue.fields.screen,com.atlassian.jira.iss
- ue.index,com.atlassian.jira.project,com.atlassian.jira.security,com.atl
- assian.jira.user,com.atlassian.jira.util,com.atlassian.plugin.osgi.fact
- ory,com.atlassian.sal.api,com.atlassian.sal.api.lifecycle,com.google.co
- mmon.base,com.google.common.collect,javax.inject,org.apache.commons.lan
- g,org.apache.commons.logging,org.ofbiz.core.entity,org.osgi.framework,o
- rg.osgi.util.tracker,org.springframework.beans,org.springframework.bean
- s.factory,org.springframework.beans.factory.annotation,org.springframew
- ork.beans.factory.config,org.springframework.beans.factory.parsing,org.
- springframework.beans.factory.support,org.springframework.beans.factory
- .xml,org.springframework.context.annotation,org.springframework.stereot
- ype,org.springframework.util,org.w3c.dom
+ .api,com.atlassian.jira.bc,com.atlassian.jira.bc.issue.fields,com.atlas
+ sian.jira.component,com.atlassian.jira.config,com.atlassian.jira.event.
+ issue,com.atlassian.jira.event.type,com.atlassian.jira.issue,com.atlass
+ ian.jira.issue.attachment,com.atlassian.jira.issue.context,com.atlassia
+ n.jira.issue.customfields,com.atlassian.jira.issue.customfields.impl,co
+ m.atlassian.jira.issue.customfields.manager,com.atlassian.jira.issue.cu
+ stomfields.persistence,com.atlassian.jira.issue.fields,com.atlassian.ji
+ ra.issue.fields.config.manager,com.atlassian.jira.issue.fields.layout.c
+ olumn,com.atlassian.jira.issue.fields.layout.field,com.atlassian.jira.i
+ ssue.fields.screen,com.atlassian.jira.issue.index,com.atlassian.jira.pr
+ oject,com.atlassian.jira.user,com.atlassian.jira.user.util,com.atlassia
+ n.jira.web.action.admin.translation,com.atlassian.plugin.osgi.factory,c
+ om.atlassian.sal.api,com.google.common.base,com.google.common.collect,j
+ avax.inject,org.apache.commons.lang,org.apache.commons.logging,org.ofbi
+ z.core.entity,org.osgi.framework,org.osgi.util.tracker,org.slf4j.helper
+ s,org.springframework.beans,org.springframework.beans.factory,org.sprin
+ gframework.beans.factory.annotation,org.springframework.beans.factory.c
+ onfig,org.springframework.beans.factory.parsing,org.springframework.bea
+ ns.factory.support,org.springframework.beans.factory.xml,org.springfram
+ ework.context.annotation,org.springframework.stereotype,org.springframe
+ work.util,org.w3c.dom
 JAVA_1_7_HOME: /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Content
  s/Home
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
